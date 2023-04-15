@@ -1,0 +1,51 @@
+radius=float(input(area of radius:))
+area=((22/7)*(radius**2))
+print=(area)
+name=input('enter name:')
+age=int(input('enter the age:'))
+gender=input('enter the gender:')
+year=int(input('enter the semster:'))
+phone_no=int(input('enter phone number:'))
+        print=('''name,age,gender,semster,phone number''')
+input=36
+print=(36***3)
+a=40
+b=5
+
+print=(a+b)
+print=(a-b)
+print=(a*b)
+print=(a%b)
+print=(a//b)
+print=(a/b)
+x=56
+y="44"
+y=int(y)
+print=(y)
+num=1
+while True:
+    print(num)
+    num+=1
+    if num==20:
+        break
+    
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+ 
