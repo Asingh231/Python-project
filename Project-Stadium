@@ -1,0 +1,78 @@
+Project
+""" theatre/stadium total seats = 150 normal seats = 130 recliner = 20 normal_seat_price = 250 recliner_price = 380
+
+seats = ask user No_seats = ask user
+
+total = xyz
+
+130 - 3 127 seats available recliner = 0
+
+"""
+
+total_seats = 150
+normal_remaining_seats = 130
+recliner_remaining_seats = 20
+normal_seats_price =250
+recliner_price = 380
+
+while True:
+    amount_normal = 0
+    amount_recliner = 0
+    print("WELCOME TO ENTRY IN THREATER")
+    
+
+    name=input("enter your name")
+    ph_no=int(input("enter your phone number"))
+    abc=input("what type of seats do you want ??(normal/recliner)")
+    
+    while True:
+        if abc=="normal":
+            ABC=int(input("how many seats do you want??"))
+            
+        if ABC<=normal_remaining_seats:
+            amount_normal+= ABC*normal_seats_price
+            normal_remaining_seats -= ABC
+            print(amount_normal)
+            print("book fast few seats left",normal_remaining_seats)
+            
+        else:
+            print("Soory!seats are not avialble")
+                
+        if abc=="recliner":
+            ABC=int(input("how many seats do you want ??"))
+
+                    
+        if ABC<=recliner_remaining_seats:
+            amount_recliner += ABC* recliner_price
+            recliner_remaining_seats -= ABC
+            print(amount_recliner)
+            print("book fast few seats left", recliner_remaining_seats)
+                        
+            repeat=input("Do you want add more seats??(yes/no)")
+            if repeat=="no" or repeat=="NO"or repeat=="No":
+                break
+            
+                  
+                            
+                            
+                            
+        
+    
+    
+WELCOME TO ENTRY IN THREATER
+enter your namenidhi
+enter your phone number123
+what type of seats do you want ??(normal/recliner)normal
+how many seats do you want??5
+1250
+book fast few seats left 125
+1900
+book fast few seats left 15
+Do you want add more seats??(yes/no)yes
+how many seats do you want??4
+2250
+book fast few seats left 121
+3420
+book fast few seats left 11
+Do you want add more seats??(yes/no)no
+WELCOME TO ENTRY IN THREATER
